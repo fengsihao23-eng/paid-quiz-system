@@ -20,6 +20,10 @@ class OrderViewSet(viewsets.GenericViewSet):
     lookup_field = 'id'
     throttle_scope = 'orders'
 
+    def get_throttles(self):
+        self.throttle_scope = 'order_status' if self.action in ('retrieve', 'check_payment', 'payment_qr') else 'orders'
+        return super().get_throttles()
+
     @transaction.atomic
     def create(self, request):
         serializer = CreateOrderSerializer(data=request.data)

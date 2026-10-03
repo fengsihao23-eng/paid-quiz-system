@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """Generate secrets once. The runtime files are ignored by Git."""
 import base64
+import argparse
 import os
 import secrets
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-env = root / '.env'
+parser = argparse.ArgumentParser()
+parser.add_argument('--paid', action='store_true', help='生成独立收费版配置')
+paid = parser.parse_args().paid
+frontend_port, admin_port = (18992, 18993) if paid else (18990, 18991)
+origins = ','.join(f'http://{host}:{port}' for host in ('localhost', '127.0.0.1') for port in (frontend_port, admin_port))
+env = root / '.runtime/paid.env' if paid else root / '.env'
 runtime = root / '.runtime'
 runtime.mkdir(mode=0o700, exist_ok=True)
 if not env.exists():
@@ -16,18 +22,21 @@ if not env.exists():
         'CODE_LOOKUP_KEY': secrets.token_urlsafe(48),
         'CODE_ENCRYPTION_KEY': base64.urlsafe_b64encode(secrets.token_bytes(32)).decode(),
         'DB_PASSWORD': secrets.token_urlsafe(32),
-        'TEST_MODE': 'True', 'PAYMENT_MODE': 'manual', 'PRODUCT_PRICE': '990',
+        'TEST_MODE': 'False' if paid else 'True', 'PAYMENT_MODE': 'manual', 'PRODUCT_PRICE': '990',
         'ALLOWED_HOSTS': 'localhost,127.0.0.1,.trycloudflare.com',
-        'CSRF_TRUSTED_ORIGINS': 'https://*.trycloudflare.com,http://localhost:18990,http://127.0.0.1:18990,http://localhost:18991,http://127.0.0.1:18991',
-        'COOKIE_SECURE': 'True', 'SITE_URL': '', 'FRONTEND_PORT': '18990', 'ADMIN_PORT': '18991',
+        'CSRF_TRUSTED_ORIGINS': 'https://*.trycloudflare.com,' + origins,
+        'COOKIE_SECURE': 'True', 'SITE_URL': '', 'FRONTEND_PORT': str(frontend_port), 'ADMIN_PORT': str(admin_port),
+        'SESSION_COOKIE_NAME': 'paid_sessionid' if paid else 'sessionid',
+        'CSRF_COOKIE_NAME': 'paid_csrftoken' if paid else 'csrftoken',
         'ADMIN_USERNAME': 'quizadmin', 'ADMIN_PASSWORD': admin_password,
     }
     descriptor = os.open(env, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
     with os.fdopen(descriptor, 'w') as file:
         file.write(''.join(key + '=' + value + '\n' for key, value in values.items()))
-    descriptor = os.open(runtime / 'admin-login.txt', os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
+    login = runtime / ('paid-admin-login.txt' if paid else 'admin-login.txt')
+    descriptor = os.open(login, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
     with os.fdopen(descriptor, 'w') as file:
-        file.write('本机后台：http://localhost:18991/admin/\n用户名：quizadmin\n密码：' + admin_password + '\n')
-    print('已生成本机配置及 .runtime/admin-login.txt，未输出任何密钥。')
+        file.write('本机后台：http://localhost:' + values['ADMIN_PORT'] + '/admin/\n用户名：quizadmin\n密码：' + admin_password + '\n')
+    print('已生成本机配置及 ' + str(login.relative_to(root)) + '，未输出任何密钥。')
 else:
-    print('已保留现有 .env 配置；未更换密钥或密码。')
+    print('已保留现有 ' + str(env.relative_to(root)) + ' 配置；未更换密钥或密码。')

@@ -2,7 +2,7 @@ import hashlib
 import secrets
 from datetime import timedelta
 from django.conf import settings
-from django.db import transaction
+from django.db import transaction, IntegrityError
 from django.utils import timezone
 from rest_framework.exceptions import ValidationError
 from apps.checkout.models import Order
@@ -26,8 +26,19 @@ def confirm_manual_payment(order, actor):
     order = Order.objects.select_for_update().get(pk=order.pk)
     if order.is_test or order.status not in ('pending', 'expired') or not order.manual_reference.strip():
         raise ValidationError('真实订单确认须填写已核对的付款凭证编号')
-    order.mark_as_paid()
-    AccessCodeService.create_access_code(order)
+    reference = order.manual_reference.strip()
+    if Order.objects.exclude(pk=order.pk).filter(is_test=False, status__in=('paid', 'refunded'), manual_reference=reference).exists():
+        raise ValidationError('该收款凭证已用于其他订单，请重新核对微信交易记录')
+    order.manual_reference = reference
+    order.save(update_fields=['manual_reference', 'updated_at'])
+    try:
+        with transaction.atomic():
+            order.mark_as_paid()
+            AccessCodeService.create_access_code(order)
+    except IntegrityError as error:
+        if getattr(getattr(error.__cause__, 'diag', None), 'constraint_name', None) == 'unique_confirmed_manual_receipt':
+            raise ValidationError('该收款凭证已用于其他订单，请重新核对微信交易记录') from error
+        raise
     AuditEvent.objects.create(actor=actor, order=order, action='manual_payment_confirmed',
                              details={'reference': order.manual_reference, 'amount': order.amount})
 

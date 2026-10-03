@@ -34,13 +34,13 @@ def validate_content(questions, rule, expected):
 
 
 class Command(BaseCommand):
-    help = '幂等导入完整原题和客户体验规则；不自动批准收费内容'
+    help = '幂等导入完整原题和娱乐测评规则；收费内容由publish_content发布'
     @transaction.atomic
     def handle(self, *args, **options):
         content = settings.BASE_DIR / 'content'
         definitions = [
-            ('city-quiz', '灵魂城市测评', '从生活节奏、气候、美食与职业等 11 个维度，探索适合你的城市生活。', '6–10', 'city', 45, 'city.scoring.preview.json', 'city_affinity', {}),
-            ('mental-age-quiz', '心理年龄测评', '通过 30 个生活情境，看看你的选择呈现怎样的心理年龄风格。', '4–7', 'mental', 30, 'mental.scoring.v1-draft.json', 'mental_linear', json.loads((content / 'mental.report.preview.json').read_text())),
+            ('city-quiz', '灵魂城市测评', '从生活节奏、气候、美食与职业等 11 个维度，探索适合你的城市生活。', '6–10', 'city', 45, 'city.scoring.v1.json', 'city_affinity', {}),
+            ('mental-age-quiz', '心理年龄测评', '通过 30 个生活情境，看看你的选择呈现怎样的心理年龄风格。', '4–7', 'mental', 30, 'mental.scoring.v1.json', 'mental_linear', json.loads((content / 'mental.report.v1.json').read_text())),
         ]
         for slug, title, description, minutes, source, count, rule_file, rule_type, templates in definitions:
             questions = json.loads((content / (source + '.questions.v1.json')).read_text())
@@ -49,10 +49,10 @@ class Command(BaseCommand):
             question_hash, scoring_hash = digest(questions), digest({'rule': rule, 'templates': templates})
             product, _ = QuizProduct.objects.get_or_create(slug=slug, defaults={'title': title, 'description': description,
                     'question_count': count, 'estimated_minutes': minutes, 'price': settings.PRODUCT_PRICE, 'status': 'published'})
-            version_code = 'preview-v2-' + scoring_hash[:8] + '-' + question_hash[:8]
+            version_code = 'v1-' + scoring_hash[:8] + '-' + question_hash[:8]
             version, created = QuizVersion.objects.get_or_create(product=product, version_code=version_code,
                 defaults={'questions_hash': question_hash, 'scoring_hash': scoring_hash, 'approval_state': 'preview',
-                          'content_note': '客户体验版本，收费前须完成内容审核。', 'report_template': templates})
+                          'content_note': '完整娱乐测评，用于自我观察；不代表科学预测、医疗诊断或心理能力。', 'report_template': templates})
             if created:
                 for q in questions['questions']:
                     question = Question.objects.create(version=version, question_id=q['id'], sequence=q['ordinal'],

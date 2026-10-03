@@ -91,7 +91,12 @@ class Order(models.Model):
         verbose_name = '订单'
         verbose_name_plural = verbose_name
         ordering = ['-created_at']
-        constraints = [models.UniqueConstraint(fields=['owner_token', 'idempotency_key'], name='unique_order_idempotency')]
+        constraints = [
+            models.UniqueConstraint(fields=['owner_token', 'idempotency_key'], name='unique_order_idempotency'),
+            models.UniqueConstraint(fields=['manual_reference'],
+                condition=models.Q(is_test=False, status__in=('paid', 'refunded')) & ~models.Q(manual_reference=''),
+                name='unique_confirmed_manual_receipt'),
+        ]
         indexes = [
             models.Index(fields=['status', 'created_at']),
             models.Index(fields=['expires_at']),

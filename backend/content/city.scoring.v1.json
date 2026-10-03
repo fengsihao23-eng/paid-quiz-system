@@ -1,7 +1,7 @@
 {
   "algorithm": "dimension_normalized_city_affinity",
-  "publication_state": "preview",
-  "scoring_version": "city-affinity-preview-2",
+  "publication_state": "published",
+  "scoring_version": "city-affinity-1",
   "score_range": [
     0,
     4

@@ -32,9 +32,23 @@ class OrderAdmin(ReadOnlyAdmin):
     exclude = ('owner_token', 'fingerprint', 'idempotency_key')
     actions = ('confirm_receipt', 'register_completed_refund', 'reissue')
 
+    def formfield_for_dbfield(self, db_field, request, **kwargs):
+        field = super().formfield_for_dbfield(db_field, request, **kwargs)
+        if field and db_field.name == 'manual_reference':
+            field.label = '收款凭证编号'
+            field.help_text = '先核对微信实际到账记录，填写交易凭证编号并保存，再在订单列表执行确认收款。'
+        if field and db_field.name == 'refund_reference':
+            field.label = '退款凭证编号'
+            field.help_text = '先在微信完成退款，填写退款凭证编号并保存，再登记退款并撤销权限。'
+        return field
+
     def get_readonly_fields(self, request, obj=None):
-        return [field for field in super().get_readonly_fields(request, obj)
-                if field not in ('manual_reference', 'refund_reference')]
+        editable = set()
+        if obj and not obj.is_test and obj.status in ('pending', 'expired'):
+            editable.add('manual_reference')
+        if obj and not obj.is_test and obj.status == 'paid' and obj.refund_state != 'success':
+            editable.add('refund_reference')
+        return [field for field in super().get_readonly_fields(request, obj) if field not in editable]
 
     def save_model(self, request, obj, form, change):
         super().save_model(request, obj, form, change)
@@ -98,24 +112,13 @@ class VersionAdmin(ReadOnlyAdmin):
     list_filter = ('product', 'approval_state')
     actions = ('approve_content',)
 
-    @admin.action(description='完成题库、评分及报告审核后：批准该版本正式收费')
+    @admin.action(description='发布已核验的完整娱乐测评内容')
     def approve_content(self, request, queryset):
-        from apps.catalog.management.commands.init_data import validate_content
+        from apps.catalog.publication import publish_content
         for version in queryset:
             try:
-                if not version.is_published or version.scoring_rules.count() != 1:
-                    raise ValidationError('须先发布完整版本')
-                questions = {'questions': [
-                    {'id': q.question_id, 'dimension': q.dimension_key,
-                     'options': [{'id': option.option_id} for option in q.options.all()]}
-                    for q in version.questions.prefetch_related('options')]}
-                validate_content(questions, version.scoring_rules.get().rule_data,
-                                 45 if version.product.slug == 'city-quiz' else 30)
-                version.approval_state = 'approved'
-                version.save(update_fields=['approval_state'])
-                AuditEvent.objects.create(actor=request.user, action='content_approved',
-                                          details={'versionId': version.pk, 'scoringHash': version.scoring_hash})
-                self.message_user(request, f'{version} 已批准。', messages.SUCCESS)
+                publish_content(version, request.user, '运营后台发布完整娱乐测评内容')
+                self.message_user(request, f'{version} 已发布。', messages.SUCCESS)
             except Exception as error:
                 self.message_user(request, f'{version}: {error}', messages.ERROR)
 

@@ -1,0 +1,12 @@
+name: paid-quiz-paid
+services:
+  backend:
+    env_file: !override
+      - .runtime/paid.env
+    environment:
+      TEST_MODE: "False"
+    ports: !override
+      - "127.0.0.1:18993:8000"
+  frontend:
+    ports: !override
+      - "127.0.0.1:18992:80"

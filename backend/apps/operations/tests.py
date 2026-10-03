@@ -200,7 +200,7 @@ class CustomerFlowTests(FlowHelpers, TestCase):
         self.assertEqual(restored['answers'][0]['questionId'], q['id'])
 
     def test_mental_low_high_and_nonordinal_scoring(self):
-        rule = json.loads((settings.BASE_DIR / 'content/mental.scoring.v1-draft.json').read_text())
+        rule = json.loads((settings.BASE_DIR / 'content/mental.scoring.v1.json').read_text())
         mapping = {row['question_id']: row['scores'] for row in rule['option_scores']}
         _, _, _, low = self.finish('mental-age-quiz', lambda q: min(mapping[q['id']], key=mapping[q['id']].get))
         _, _, _, high = self.finish('mental-age-quiz', lambda q: max(mapping[q['id']], key=mapping[q['id']].get))

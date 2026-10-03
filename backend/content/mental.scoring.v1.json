@@ -1,7 +1,7 @@
 {
   "product_slug": "mental-age",
-  "scoring_version": "mental-age-linear-1-draft",
-  "publication_state": "draft",
+  "scoring_version": "mental-age-linear-1",
+  "publication_state": "published",
   "algorithm": "linear_entertainment_age",
   "minimum_age": 16,
   "maximum_age": 60,

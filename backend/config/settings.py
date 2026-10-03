@@ -68,12 +68,14 @@ REST_FRAMEWORK = {
     'EXCEPTION_HANDLER': 'config.exceptions.custom_exception_handler',
     'DEFAULT_THROTTLE_CLASSES': ['rest_framework.throttling.AnonRateThrottle', 'rest_framework.throttling.ScopedRateThrottle'],
     'NUM_PROXIES': 1,
-    'DEFAULT_THROTTLE_RATES': {'anon': '300/min', 'access': '20/min', 'orders': '20/min', 'tickets': '20/min'},
+    'DEFAULT_THROTTLE_RATES': {'anon': '300/min', 'access': '20/min', 'orders': '20/min', 'order_status': '120/min', 'tickets': '20/min'},
 }
 CORS_ALLOWED_ORIGINS = csv('CORS_ALLOWED_ORIGINS', 'http://localhost:3000,http://127.0.0.1:3000')
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = ['accept', 'authorization', 'content-type', 'origin', 'user-agent', 'x-csrftoken', 'x-idempotency-key', 'x-requested-with']
 SESSION_COOKIE_AGE = 86400 * 30
+SESSION_COOKIE_NAME = os.getenv('SESSION_COOKIE_NAME', 'sessionid')
+CSRF_COOKIE_NAME = os.getenv('CSRF_COOKIE_NAME', 'csrftoken')
 SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SECURE = boolean('COOKIE_SECURE', not DEBUG)
 SESSION_COOKIE_SAMESITE = 'Lax'

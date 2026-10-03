@@ -1,0 +1,1269 @@
+{
+  "product_slug": "mental-age",
+  "title": "心理年龄测试",
+  "version": "content-import-1",
+  "publication_state": "draft",
+  "question_count": 30,
+  "questions": [
+    {
+      "id": "mental-q001",
+      "ordinal": 1,
+      "dimension": "entertainment_age",
+      "prompt": "深夜12点，你刚躺下，手机弹出领导消息：「明早8点开会，别迟到」。你的第一反应是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "瞬间清醒，开始脑补各种最坏结果，失眠了",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "烦躁地骂一句，定好闹钟继续刷手机压惊",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "回个「收到」，放下手机逼自己赶紧睡",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "心里过一遍明天要准备的东西，安然入睡",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "8点的会7点半起也来得及，完全不慌",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 0
+      }
+    },
+    {
+      "id": "mental-q002",
+      "ordinal": 2,
+      "dimension": "entertainment_age",
+      "prompt": "你已经洗完澡换上了睡衣，朋友突然发来消息：「快出来！就差你一个！」你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "睡衣外套件外套就冲，快乐不能等",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "疯狂纠结，最后还是架不住劝说出了门",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "问清楚都有谁、去哪玩，再决定",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "找个体面的理由婉拒，窝着它不香吗",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "直接说「不想动」，拒绝不需要理由",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 1
+      }
+    },
+    {
+      "id": "mental-q003",
+      "ordinal": 3,
+      "dimension": "entertainment_age",
+      "prompt": "刷到一条和你观点完全相反的评论，但居然有好几万赞，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "键盘就位，必须让TA知道什么叫逻辑",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "阴阳怪气回一句，然后等对线",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "点开评论区，看看有没有人替我骂",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "心里不认同，但完全懒得争",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "划走。允许别人和自己想得不一样",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 2
+      }
+    },
+    {
+      "id": "mental-q004",
+      "ordinal": 4,
+      "dimension": "entertainment_age",
+      "prompt": "外卖迟到了40分钟，骑手打电话气喘吁吁说「抱歉抱歉马上到」，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "早就点了催单，电话里直接发火",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "嘴上说没事，挂了电话默默给差评",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "问一句「是不是出事了」，能等就等",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "「没事不急，你注意安全」",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "提前点了送达，餐到了还跟骑手说谢谢",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 3
+      }
+    },
+    {
+      "id": "mental-q005",
+      "ordinal": 5,
+      "dimension": "entertainment_age",
+      "prompt": "你随手发了条朋友圈，几分钟后发现——前任（或曾经在意的人）给你点了赞。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "心跳漏一拍，反复琢磨TA什么意思",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "截图发给闺蜜/兄弟：「TA这是什么操作？」",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "心里有一丝波动，但不会做任何事",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "「哦」，看到了，该干嘛干嘛",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "毫无波澜，甚至想不起来是谁了",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 4
+      }
+    },
+    {
+      "id": "mental-q006",
+      "ordinal": 6,
+      "dimension": "entertainment_age",
+      "prompt": "工资到账短信「叮」地响起，你的第一个动作是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "打开购物车，犒劳辛苦一个月的自己",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "先还花呗信用卡，看看还能剩多少",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "转一笔到储蓄卡，剩下的当生活费",
+          "ordinal": 3,
+          "reference_score": 4
+        },
+        {
+          "id": "D",
+          "label": "打开记账APP，按预算分配好每一笔",
+          "ordinal": 4,
+          "reference_score": 5
+        },
+        {
+          "id": "E",
+          "label": "看一眼数字，没什么太大的感觉",
+          "ordinal": 5,
+          "reference_score": 3
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 5
+      }
+    },
+    {
+      "id": "mental-q007",
+      "ordinal": 7,
+      "dimension": "entertainment_age",
+      "prompt": "饭局上有人讲了个冷笑话，全场突然安静。你是那个？",
+      "options": [
+        {
+          "id": "A",
+          "label": "笑得最大声的人，必须帮TA救场",
+          "ordinal": 1,
+          "reference_score": 2
+        },
+        {
+          "id": "B",
+          "label": "尴尬地「呵呵」两声，低头夹菜",
+          "ordinal": 2,
+          "reference_score": 3
+        },
+        {
+          "id": "C",
+          "label": "面无表情，该吃吃该喝喝，不觉得尴尬",
+          "ordinal": 3,
+          "reference_score": 5
+        },
+        {
+          "id": "D",
+          "label": "淡定地补了一个更冷的，全场更安静了",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "假装在回消息，其实根本没人找我",
+          "ordinal": 5,
+          "reference_score": 1
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 6
+      }
+    },
+    {
+      "id": "mental-q008",
+      "ordinal": 8,
+      "dimension": "entertainment_age",
+      "prompt": "如果突然给你一整周完全空闲的时间——没人找、没事干、没deadline，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "爽翻！通宵打游戏/追剧，昼夜颠倒",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "把朋友约了个遍，日程排得比上班还满",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "先躺两天，再做些平时没空做的事",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "看书、运动、学东西，过得充实又自在",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "彻底放空，独处就是最好的充电",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 7
+      }
+    },
+    {
+      "id": "mental-q009",
+      "ordinal": 9,
+      "dimension": "entertainment_age",
+      "prompt": "假如能给18岁的自己捎一句话，你最想说？",
+      "options": [
+        {
+          "id": "A",
+          "label": "「喜欢的人快去表白，别怂！」",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "「好好读书考个好学校，以后会感谢我的」",
+          "ordinal": 2,
+          "reference_score": 3
+        },
+        {
+          "id": "C",
+          "label": "「别太在意别人怎么看你，真的没那么重要」",
+          "ordinal": 3,
+          "reference_score": 4
+        },
+        {
+          "id": "D",
+          "label": "「什么都不用说，当时的你已经很好了」",
+          "ordinal": 4,
+          "reference_score": 5
+        },
+        {
+          "id": "E",
+          "label": "「记住那期彩票号码……」",
+          "ordinal": 5,
+          "reference_score": 2
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 8
+      }
+    },
+    {
+      "id": "mental-q010",
+      "ordinal": 10,
+      "dimension": "entertainment_age",
+      "prompt": "好朋友找你吐槽TA的另一半，但你听完觉得——明明是朋友自己的问题。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "「太过分了！TA怎么能这样！」先站朋友再说",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "嘴上附和着，心里门儿清怎么回事",
+          "ordinal": 2,
+          "reference_score": 3
+        },
+        {
+          "id": "C",
+          "label": "帮TA客观分析，委婉地指出另一面",
+          "ordinal": 3,
+          "reference_score": 4
+        },
+        {
+          "id": "D",
+          "label": "感情的事不掺和，听着、递纸巾就好",
+          "ordinal": 4,
+          "reference_score": 5
+        },
+        {
+          "id": "E",
+          "label": "直接说实话：「我觉得这事你也有问题」",
+          "ordinal": 5,
+          "reference_score": 4
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 9
+      }
+    },
+    {
+      "id": "mental-q011",
+      "ordinal": 11,
+      "dimension": "entertainment_age",
+      "prompt": "过年回家，一屋子亲戚围着你：「有对象了吗？工资多少？」你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "装聋作哑，低头疯狂扒饭",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "硬着头皮老实回答，然后被追问一晚上",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "提前备好标准答案，背完就找机会溜",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "笑着打太极：「快了快了，您先吃菜」",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "反问回去：「您家孩子期末考第几？退休金涨了吗？」",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 10
+      }
+    },
+    {
+      "id": "mental-q012",
+      "ordinal": 12,
+      "dimension": "entertainment_age",
+      "prompt": "你正专心做事，群里突然有人@你：「来一个！表演个节目！」你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "赶紧推脱说自己不行，紧张得手心冒汗",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "大大方方配合一下，热闹嘛",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "发个表情包或红包，试图蒙混过关",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "假装没看见，过两小时再冒泡",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "不回。不想表演，是我的自由",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 11
+      }
+    },
+    {
+      "id": "mental-q013",
+      "ordinal": 13,
+      "dimension": "entertainment_age",
+      "prompt": "你喜欢了很久的人，突然主动发来两个字：「在吗？」你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "秒回！然后反复修改每个字，生怕说错",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "心跳狂飙，截图问朋友该怎么回",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "故意等几分钟，显得自己没那么在意",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "正常聊，先看看对方找你什么事",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "平静回「在，怎么了」",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 12
+      }
+    },
+    {
+      "id": "mental-q014",
+      "ordinal": 14,
+      "dimension": "entertainment_age",
+      "prompt": "理发店Tony一边给你洗头一边说：「办张卡呗，今天充1000送300，特别划算」。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "不好意思拒绝，办了卡，出门就后悔",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "说「再想想」，结果被推销了一整趟",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "反问一堆问题，把对方聊到沉默",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "礼貌而坚定：「不办，谢谢」",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "坐下先声明：只剪发，不办卡、不聊天",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 13
+      }
+    },
+    {
+      "id": "mental-q015",
+      "ordinal": 15,
+      "dimension": "entertainment_age",
+      "prompt": "刷朋友圈，看到同龄人又在晒升职、买房、出国旅游，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "心里一沉，开始怀疑自己的人生",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "羡慕得不行，越刷越焦虑",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "默默屏蔽，眼不见心不烦",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "点个赞，放下手机继续过自己的日子",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "真心祝福，每个人都有自己的节奏",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 14
+      }
+    },
+    {
+      "id": "mental-q016",
+      "ordinal": 16,
+      "dimension": "entertainment_age",
+      "prompt": "你精心安排了一整天的行程，结果刚出门第一站就下起暴雨。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "整个人都不好了，一天的心情全毁",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "抱怨运气差，硬着头皮按原计划走",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "有点扫兴，但很快被别的事转移了注意力",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "迅速调整，找几个室内备选方案",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "干脆回家，泡杯热茶看雨也挺惬意",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 15
+      }
+    },
+    {
+      "id": "mental-q017",
+      "ordinal": 17,
+      "dimension": "entertainment_age",
+      "prompt": "一个几乎不联系的同学突然发来：「在吗？跟你说个事儿」。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "热情回应，万一是真有什么事呢",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "先回个「在」，看看对方要干嘛",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "警铃大作：不是借钱就是要随礼",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "装没看见，成年人之间该有点默契",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "直接问：「是要随礼还是借钱？我好有个准备」",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 16
+      }
+    },
+    {
+      "id": "mental-q018",
+      "ordinal": 18,
+      "dimension": "entertainment_age",
+      "prompt": "排队排了20分钟，快到你了，突然有人理直气壮地插到你前面。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "气得不行，但嘴上什么都没说",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "小声嘀咕，希望对方能自觉",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "提高音量理论，让周围人评评理",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "拍拍TA：「不好意思，队伍在后面排」",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "看一眼，懒得计较，让TA插了",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 17
+      }
+    },
+    {
+      "id": "mental-q019",
+      "ordinal": 19,
+      "dimension": "entertainment_age",
+      "prompt": "和对象或好朋友大吵一架，双方都在气头上。接下来你通常会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "冷战到底，谁先开口谁就输了",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "发一大段小作文，解释自己的委屈",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "必须立刻说清楚，不解决睡不着",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "先各自冷静，情绪过了再好好沟通",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "主动递个台阶，谁对谁错没那么重要",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 18
+      }
+    },
+    {
+      "id": "mental-q020",
+      "ordinal": 20,
+      "dimension": "entertainment_age",
+      "prompt": "半夜两点突然醒来，脑子里开始循环白天的尴尬、几年前出的丑。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "越想越精神，辗转反侧直到天亮",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "抓起手机刷视频，想麻痹自己",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "干脆起来做点别的，困了再睡",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "告诉自己「都过去了」，努力入睡",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "接纳这些念头，谁还没点黑历史呢",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 19
+      }
+    },
+    {
+      "id": "mental-q021",
+      "ordinal": 21,
+      "dimension": "entertainment_age",
+      "prompt": "同事在领导面前把锅甩给你，而你当时完全没反应过来。事后你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "气死了却不知怎么反击，憋出内伤",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "逢人就吐槽这个同事，发泄情绪",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "算了，清者自清，时间会证明",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "找当事人和领导，当面把事实说清楚",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "私下找领导，用事实和记录理性澄清",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 20
+      }
+    },
+    {
+      "id": "mental-q022",
+      "ordinal": 22,
+      "dimension": "entertainment_age",
+      "prompt": "手机电量只剩1%，你还要在外面待很久，身边也没有充电宝。你的状态是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "瞬间焦虑，满世界找插座和共享充电宝",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "疯狂关后台、开省电模式，手心直冒汗",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "有点慌，但很快接受了现实",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "赶紧给重要的人发定位、说明情况",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "没电就没电，正好落个清静",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 21
+      }
+    },
+    {
+      "id": "mental-q023",
+      "ordinal": 23,
+      "dimension": "entertainment_age",
+      "prompt": "朋友找你借一笔不小的钱，说「下个月肯定还」，但你知道TA信用一般。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "不好意思拒绝，借了之后天天惦记",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "咬咬牙全借了，就怕伤了感情",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "借一部分，说自己手头也不宽裕",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "编个理由婉拒，尽量不伤和气",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "直接拒绝，不还比拒绝更伤感情",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 22
+      }
+    },
+    {
+      "id": "mental-q024",
+      "ordinal": 24,
+      "dimension": "entertainment_age",
+      "prompt": "一个人去吃火锅或看电影，服务员问「几位？」你说「一位」。你心里？",
+      "options": [
+        {
+          "id": "A",
+          "label": "浑身不自在，总觉得别人在看自己",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "有点尴尬，赶紧低头玩手机",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "头几次别扭，习惯了就没感觉",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "很自然，一个人本来就很正常",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "享受独处，想吃啥点啥，太爽了",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 23
+      }
+    },
+    {
+      "id": "mental-q025",
+      "ordinal": 25,
+      "dimension": "entertainment_age",
+      "prompt": "翻到自己三五年前的朋友圈或QQ空间，看到矫情的文字和非主流自拍。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "羞耻到想立刻注销账号",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "尴尬到脚趾抠地，全部删掉或设私密",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "截图发给朋友，一起嘲笑当年的自己",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "有点感慨，时间过得真快啊",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "笑着看完，觉得那时候的自己也挺可爱",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 24
+      }
+    },
+    {
+      "id": "mental-q026",
+      "ordinal": 26,
+      "dimension": "entertainment_age",
+      "prompt": "你做了个自认为很棒的方案，结果被领导当众说：「这做的什么玩意儿？」你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "脸当场垮下来，回去偷偷难过很久",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "当面反驳，维护自己的成果",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "嘴上应着，心里一百个不服气",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "稳住情绪，就事论事地讨论问题",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "追问具体哪里不行，把有用的意见记下来",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 25
+      }
+    },
+    {
+      "id": "mental-q027",
+      "ordinal": 27,
+      "dimension": "entertainment_age",
+      "prompt": "你本来想一个人安静过周末，家人却临时安排了一场你完全不想去的聚会。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "大吵一架，坚决不去",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "硬着头皮去，全程生无可恋",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "去露个面、待一会儿就找借口撤",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "坦诚沟通想休息，商量改时间再聚",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "调整心态，既然去了就好好陪家人",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 26
+      }
+    },
+    {
+      "id": "mental-q028",
+      "ordinal": 28,
+      "dimension": "entertainment_age",
+      "prompt": "网购的东西到手发现和图片差很多，客服还阴阳怪气。你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "气得手抖，跟客服吵上一整天",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "自认倒霉，懒得折腾，给个差评",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "看金额大小，太小就算了",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "冷静走平台投诉、申请退款",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "保留好证据，维权到底，绝不惯着",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 27
+      }
+    },
+    {
+      "id": "mental-q029",
+      "ordinal": 29,
+      "dimension": "entertainment_age",
+      "prompt": "突然听到一首很多年前单曲循环过的歌，你的第一反应是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "瞬间被拉回过去，emo好半天",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "马上单曲循环，边听边翻旧照片",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "感慨一下，然后继续手头的事",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "会心一笑，想起一些人和事",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "平静听完，过去的就让它过去吧",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 28
+      }
+    },
+    {
+      "id": "mental-q030",
+      "ordinal": 30,
+      "dimension": "entertainment_age",
+      "prompt": "如果此刻闭上眼睛，想象5年后的自己，你脑海里的第一反应是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "一片空白，完全不敢往下想",
+          "ordinal": 1,
+          "reference_score": 1
+        },
+        {
+          "id": "B",
+          "label": "焦虑，怕自己还是现在这副样子",
+          "ordinal": 2,
+          "reference_score": 2
+        },
+        {
+          "id": "C",
+          "label": "有个模糊的画面，但说不太清楚",
+          "ordinal": 3,
+          "reference_score": 3
+        },
+        {
+          "id": "D",
+          "label": "有具体的目标，正在一步步靠近",
+          "ordinal": 4,
+          "reference_score": 4
+        },
+        {
+          "id": "E",
+          "label": "不管什么样子，都希望TA比现在更从容",
+          "ordinal": 5,
+          "reference_score": 5
+        }
+      ],
+      "source": {
+        "file": "6abe992a191d66213c43a949/index.html",
+        "index": 29
+      }
+    }
+  ]
+}

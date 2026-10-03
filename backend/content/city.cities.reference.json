@@ -1,0 +1,359 @@
+{
+  "publication_state": "reference_only",
+  "city_count": 16,
+  "note": "原包的城市特征与标签原样提取，未验证其准确性；不得自动视为新版正式评分依据。",
+  "cities": [
+    {
+      "name": "北京",
+      "emoji": "🏯",
+      "tags": [
+        "一线城市",
+        "历史文化",
+        "政治中心"
+      ],
+      "traits": {
+        "pace": 4,
+        "climate": 2,
+        "food": 2,
+        "career": 5,
+        "lifestyle": 4,
+        "vibe": 5,
+        "social": 3,
+        "size": 5,
+        "nature": 2,
+        "language": 2,
+        "culture": 5
+      }
+    },
+    {
+      "name": "上海",
+      "emoji": "🗼",
+      "tags": [
+        "一线城市",
+        "时尚摩登",
+        "金融中心"
+      ],
+      "traits": {
+        "pace": 5,
+        "climate": 3,
+        "food": 3,
+        "career": 5,
+        "lifestyle": 5,
+        "vibe": 4,
+        "social": 3,
+        "size": 5,
+        "nature": 2,
+        "language": 4,
+        "culture": 4
+      }
+    },
+    {
+      "name": "广州",
+      "emoji": "🌴",
+      "tags": [
+        "一线城市",
+        "美食天堂",
+        "务实包容"
+      ],
+      "traits": {
+        "pace": 4,
+        "climate": 4,
+        "food": 5,
+        "career": 4,
+        "lifestyle": 4,
+        "vibe": 3,
+        "social": 4,
+        "size": 5,
+        "nature": 3,
+        "language": 5,
+        "culture": 3
+      }
+    },
+    {
+      "name": "深圳",
+      "emoji": "💎",
+      "tags": [
+        "一线城市",
+        "科技创新",
+        "年轻活力"
+      ],
+      "traits": {
+        "pace": 5,
+        "climate": 4,
+        "food": 3,
+        "career": 5,
+        "lifestyle": 4,
+        "vibe": 3,
+        "social": 4,
+        "size": 5,
+        "nature": 3,
+        "language": 2,
+        "culture": 2
+      }
+    },
+    {
+      "name": "成都",
+      "emoji": "🐼",
+      "tags": [
+        "新一线",
+        "安逸休闲",
+        "麻辣美食"
+      ],
+      "traits": {
+        "pace": 2,
+        "climate": 3,
+        "food": 5,
+        "career": 3,
+        "lifestyle": 3,
+        "vibe": 3,
+        "social": 5,
+        "size": 4,
+        "nature": 3,
+        "language": 4,
+        "culture": 4
+      }
+    },
+    {
+      "name": "杭州",
+      "emoji": "🍃",
+      "tags": [
+        "新一线",
+        "诗意江南",
+        "互联网之都"
+      ],
+      "traits": {
+        "pace": 3,
+        "climate": 3,
+        "food": 3,
+        "career": 4,
+        "lifestyle": 4,
+        "vibe": 4,
+        "social": 3,
+        "size": 4,
+        "nature": 4,
+        "language": 4,
+        "culture": 4
+      }
+    },
+    {
+      "name": "武汉",
+      "emoji": "🌸",
+      "tags": [
+        "新一线",
+        "九省通衢",
+        "江湖气息"
+      ],
+      "traits": {
+        "pace": 3,
+        "climate": 3,
+        "food": 4,
+        "career": 3,
+        "lifestyle": 3,
+        "vibe": 3,
+        "social": 4,
+        "size": 4,
+        "nature": 4,
+        "language": 3,
+        "culture": 3
+      }
+    },
+    {
+      "name": "南京",
+      "emoji": "🏛️",
+      "tags": [
+        "新一线",
+        "六朝古都",
+        "人文底蕴"
+      ],
+      "traits": {
+        "pace": 3,
+        "climate": 3,
+        "food": 3,
+        "career": 3,
+        "lifestyle": 3,
+        "vibe": 5,
+        "social": 3,
+        "size": 4,
+        "nature": 4,
+        "language": 3,
+        "culture": 5
+      }
+    },
+    {
+      "name": "苏州",
+      "emoji": "🏯",
+      "tags": [
+        "宜居二线",
+        "江南水乡",
+        "精致宜居"
+      ],
+      "traits": {
+        "pace": 2,
+        "climate": 3,
+        "food": 3,
+        "career": 3,
+        "lifestyle": 4,
+        "vibe": 4,
+        "social": 2,
+        "size": 3,
+        "nature": 4,
+        "language": 4,
+        "culture": 5
+      }
+    },
+    {
+      "name": "厦门",
+      "emoji": "🌊",
+      "tags": [
+        "宜居二线",
+        "海滨花园",
+        "文艺清新"
+      ],
+      "traits": {
+        "pace": 2,
+        "climate": 4,
+        "food": 4,
+        "career": 2,
+        "lifestyle": 4,
+        "vibe": 4,
+        "social": 3,
+        "size": 2,
+        "nature": 5,
+        "language": 3,
+        "culture": 3
+      }
+    },
+    {
+      "name": "青岛",
+      "emoji": "🍺",
+      "tags": [
+        "宜居二线",
+        "海滨城市",
+        "啤酒海鲜"
+      ],
+      "traits": {
+        "pace": 2,
+        "climate": 3,
+        "food": 4,
+        "career": 2,
+        "lifestyle": 3,
+        "vibe": 3,
+        "social": 3,
+        "size": 3,
+        "nature": 5,
+        "language": 3,
+        "culture": 3
+      }
+    },
+    {
+      "name": "珠海",
+      "emoji": "🌴",
+      "tags": [
+        "宜居二线",
+        "海滨新城",
+        "舒适安逸"
+      ],
+      "traits": {
+        "pace": 1,
+        "climate": 4,
+        "food": 3,
+        "career": 2,
+        "lifestyle": 4,
+        "vibe": 3,
+        "social": 3,
+        "size": 2,
+        "nature": 5,
+        "language": 3,
+        "culture": 2
+      }
+    },
+    {
+      "name": "大理",
+      "emoji": "⛰️",
+      "tags": [
+        "特色风情",
+        "风花雪月",
+        "诗意栖居"
+      ],
+      "traits": {
+        "pace": 1,
+        "climate": 3,
+        "food": 3,
+        "career": 1,
+        "lifestyle": 5,
+        "vibe": 5,
+        "social": 4,
+        "size": 1,
+        "nature": 5,
+        "language": 3,
+        "culture": 4
+      }
+    },
+    {
+      "name": "三亚",
+      "emoji": "🏖️",
+      "tags": [
+        "特色风情",
+        "热带海滨",
+        "度假天堂"
+      ],
+      "traits": {
+        "pace": 1,
+        "climate": 5,
+        "food": 4,
+        "career": 1,
+        "lifestyle": 5,
+        "vibe": 3,
+        "social": 4,
+        "size": 2,
+        "nature": 5,
+        "language": 2,
+        "culture": 2
+      }
+    },
+    {
+      "name": "拉萨",
+      "emoji": "🛕",
+      "tags": [
+        "特色风情",
+        "日光之城",
+        "心灵净土"
+      ],
+      "traits": {
+        "pace": 1,
+        "climate": 2,
+        "food": 2,
+        "career": 1,
+        "lifestyle": 4,
+        "vibe": 5,
+        "social": 3,
+        "size": 1,
+        "nature": 5,
+        "language": 2,
+        "culture": 5
+      }
+    },
+    {
+      "name": "丽江",
+      "emoji": "🏔️",
+      "tags": [
+        "特色风情",
+        "古城风情",
+        "慢生活"
+      ],
+      "traits": {
+        "pace": 1,
+        "climate": 3,
+        "food": 3,
+        "career": 1,
+        "lifestyle": 5,
+        "vibe": 5,
+        "social": 5,
+        "size": 1,
+        "nature": 5,
+        "language": 3,
+        "culture": 4
+      }
+    }
+  ]
+}

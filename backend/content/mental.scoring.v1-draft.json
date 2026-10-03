@@ -1,0 +1,353 @@
+{
+  "product_slug": "mental-age",
+  "scoring_version": "mental-age-linear-1-draft",
+  "publication_state": "draft",
+  "algorithm": "linear_entertainment_age",
+  "minimum_age": 16,
+  "maximum_age": 60,
+  "rounding": "floor(x + 0.5)",
+  "question_count": 30,
+  "option_scores": [
+    {
+      "question_id": "mental-q001",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q002",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q003",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q004",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q005",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q006",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 4,
+        "D": 5,
+        "E": 3
+      }
+    },
+    {
+      "question_id": "mental-q007",
+      "scores": {
+        "A": 2,
+        "B": 3,
+        "C": 5,
+        "D": 4,
+        "E": 1
+      }
+    },
+    {
+      "question_id": "mental-q008",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q009",
+      "scores": {
+        "A": 1,
+        "B": 3,
+        "C": 4,
+        "D": 5,
+        "E": 2
+      }
+    },
+    {
+      "question_id": "mental-q010",
+      "scores": {
+        "A": 1,
+        "B": 3,
+        "C": 4,
+        "D": 5,
+        "E": 4
+      }
+    },
+    {
+      "question_id": "mental-q011",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q012",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q013",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q014",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q015",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q016",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q017",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q018",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q019",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q020",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q021",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q022",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q023",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q024",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q025",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q026",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q027",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q028",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q029",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    },
+    {
+      "question_id": "mental-q030",
+      "scores": {
+        "A": 1,
+        "B": 2,
+        "C": 3,
+        "D": 4,
+        "E": 5
+      }
+    }
+  ],
+  "types": [
+    {
+      "age_min": 16,
+      "age_max": 20,
+      "label": "野生少年型"
+    },
+    {
+      "age_min": 21,
+      "age_max": 28,
+      "label": "半熟青年型"
+    },
+    {
+      "age_min": 29,
+      "age_max": 38,
+      "label": "人间清醒型"
+    },
+    {
+      "age_min": 39,
+      "age_max": 50,
+      "label": "佛系智者型"
+    },
+    {
+      "age_min": 51,
+      "age_max": 60,
+      "label": "活体仙人型"
+    }
+  ],
+  "report_fields": [
+    "entertainment_age",
+    "type",
+    "total_score",
+    "answer_distribution",
+    "template_explanation"
+  ],
+  "excluded_source_fields": [
+    "random_six_dimensions",
+    "fictional_buyer_count",
+    "fictional_order_ticker",
+    "resetting_promo_countdown"
+  ],
+  "required_review": "源规则作为娱乐测评草案，客户须审阅分值、类型名、解释文案后发布。"
+}

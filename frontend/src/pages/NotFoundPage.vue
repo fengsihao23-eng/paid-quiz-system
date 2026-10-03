@@ -1,0 +1,1 @@
+<template><div class="container page"><article class="card stack center"><h1>页面不存在</h1><p class="muted">链接可能有误，返回首页继续探索。</p><router-link class="btn btn-primary" to="/">返回首页</router-link></article></div></template>

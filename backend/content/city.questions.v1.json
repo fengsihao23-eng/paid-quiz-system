@@ -1,0 +1,1596 @@
+{
+  "product_slug": "city",
+  "title": "城市性格测评",
+  "version": "content-import-1",
+  "publication_state": "draft",
+  "question_count": 45,
+  "dimensions": [
+    {
+      "key": "pace",
+      "name": "生活节奏",
+      "question_count": 5
+    },
+    {
+      "key": "climate",
+      "name": "气候偏好",
+      "question_count": 4
+    },
+    {
+      "key": "food",
+      "name": "美食偏好",
+      "question_count": 5
+    },
+    {
+      "key": "career",
+      "name": "职业发展",
+      "question_count": 5
+    },
+    {
+      "key": "lifestyle",
+      "name": "生活方式",
+      "question_count": 6
+    },
+    {
+      "key": "vibe",
+      "name": "城市气质",
+      "question_count": 5
+    },
+    {
+      "key": "social",
+      "name": "人际社交",
+      "question_count": 5
+    },
+    {
+      "key": "size",
+      "name": "城市规模",
+      "question_count": 2
+    },
+    {
+      "key": "nature",
+      "name": "自然风光",
+      "question_count": 4
+    },
+    {
+      "key": "language",
+      "name": "语言文化",
+      "question_count": 2
+    },
+    {
+      "key": "culture",
+      "name": "文娱生活",
+      "question_count": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "city-q001",
+      "ordinal": 1,
+      "dimension": "pace",
+      "category": "生活节奏",
+      "prompt": "工作日早上，你通常是什么状态？",
+      "options": [
+        {
+          "id": "A",
+          "label": "闹钟响了立刻弹起来，赶时间的感觉让我充实",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "会提前起床，慢悠悠地准备好再出门",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "能多睡一秒是一秒，踩点到公司就行",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "习惯早起做点自己的事，比如运动或读书",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 1,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q002",
+      "ordinal": 2,
+      "dimension": "pace",
+      "category": "生活节奏",
+      "prompt": "如果公司搬到更远的地方，通勤变久了，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "没问题，为了好工作这点距离算什么",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "能接受，但得在合理范围内",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "得认真考虑要不要换工作了",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "直接不行，通勤太久太耗精力",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 1,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q003",
+      "ordinal": 3,
+      "dimension": "pace",
+      "category": "生活节奏",
+      "prompt": "下班回家的路上，你通常会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "听播客学东西，时间不能浪费",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "刷刷手机放松一下",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "走路或骑车，顺便运动一下",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "开车的时候想想事情",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 1,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q004",
+      "ordinal": 4,
+      "dimension": "pace",
+      "category": "生活节奏",
+      "prompt": "你怎么看待加班这件事？",
+      "options": [
+        {
+          "id": "A",
+          "label": "年轻时拼一点很正常，成长最重要",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "偶尔加加班可以，常态化就受不了",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "坚决反对，工作之外的时间才是生活",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "效率到位就行，不一定要靠熬时间",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 1,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q005",
+      "ordinal": 5,
+      "dimension": "pace",
+      "category": "生活节奏",
+      "prompt": "如果突然多了三天假期，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "安排满满的行程，抓紧时间玩",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "出去走走但别太累",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "在家躺平补觉最舒服",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "随便干点啥都行，不刻意安排",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 1,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q006",
+      "ordinal": 6,
+      "dimension": "climate",
+      "category": "气候偏好",
+      "prompt": "你更偏爱什么样的天气？",
+      "options": [
+        {
+          "id": "A",
+          "label": "春夏秋冬各有各的美，四季分明最好",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "暖和一点舒服，冬天别太冷就行",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "常年温度差不多，温和稳定最好",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "冷热都能适应，不挑环境",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 2,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q007",
+      "ordinal": 7,
+      "dimension": "climate",
+      "category": "气候偏好",
+      "prompt": "一年四季中，你最不喜欢哪个季节？",
+      "options": [
+        {
+          "id": "A",
+          "label": "冬天，又冷又干太难受",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "春天，到处湿漉漉的不舒服",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "夏天，热得人没精神",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "都还行，没有特别讨厌的",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 2,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q008",
+      "ordinal": 8,
+      "dimension": "climate",
+      "category": "气候偏好",
+      "prompt": "冬天你最期待的是什么？",
+      "options": [
+        {
+          "id": "A",
+          "label": "下雪啊，没有雪的冬天没灵魂",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "出太阳就行，别太冷",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "什么都不期待，赶紧过完冬天",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "冬天也挺好的，不期待什么",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 2,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q009",
+      "ordinal": 9,
+      "dimension": "climate",
+      "category": "气候偏好",
+      "prompt": "夏天特别热的地方你能适应吗？",
+      "options": [
+        {
+          "id": "A",
+          "label": "没问题，室内有空调就行",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "最好有海风调节一下，不然太闷",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "还是凉快一点的地方住着舒服",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "都能适应，没什么所谓",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 2,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q010",
+      "ordinal": 10,
+      "dimension": "food",
+      "category": "美食偏好",
+      "prompt": "你吃饭更看重什么？",
+      "options": [
+        {
+          "id": "A",
+          "label": "味道要重，够劲够爽才叫吃饭",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "健康清淡，食材本身要好",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "鲜味十足，食材新鲜最重要",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "种类要多，天天吃不一样的",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 3,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q011",
+      "ordinal": 11,
+      "dimension": "food",
+      "category": "美食偏好",
+      "prompt": "对于每天吃饭这件事，你怎么看？",
+      "options": [
+        {
+          "id": "A",
+          "label": "吃很重要，每顿都不能马虎",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "填饱肚子就行，不想花太多时间",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "自己做点喜欢吃的，也是一种享受",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "到处探索新店子，吃才是人生大事",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 3,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q012",
+      "ordinal": 12,
+      "dimension": "food",
+      "category": "美食偏好",
+      "prompt": "到一个新城市，你第一件事通常是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "找当地最有名的小吃挨个吃",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "去打卡知名景点和地标",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "找个风景好的地方逛逛",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "先住下来慢慢感受，不急",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 3,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q013",
+      "ordinal": 13,
+      "dimension": "food",
+      "category": "美食偏好",
+      "prompt": "深夜想吃东西，你最想去？",
+      "options": [
+        {
+          "id": "A",
+          "label": "路边摊烤串配冰啤酒",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "火锅店涮肉吃到爽",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "海鲜大排档吃个够",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "安静的小酒馆，喝点小酒",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 3,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q014",
+      "ordinal": 14,
+      "dimension": "food",
+      "category": "美食偏好",
+      "prompt": "早餐你更偏好哪一种？",
+      "options": [
+        {
+          "id": "A",
+          "label": "一碗粉面下肚，满足感爆棚",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "点心小食配茶，精致又丰富",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "包子豆浆油条，经典又顶饱",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "清粥小菜，简简单单最舒服",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 3,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q015",
+      "ordinal": 15,
+      "dimension": "career",
+      "category": "职业发展",
+      "prompt": "你理想中的工作是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "大公司或公务员，稳定又体面",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "有挑战的工作，成长空间大",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "自由职业，时间自己安排",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "做喜欢的事，哪怕钱少一点",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 4,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q016",
+      "ordinal": 16,
+      "dimension": "career",
+      "category": "职业发展",
+      "prompt": "如果有一份很好的工作但城市很远，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "毫不犹豫去，机会最重要",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "综合考虑一下，合适就去",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "不太想去，不想离家太远",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "看风景好不好，好就去",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 4,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q017",
+      "ordinal": 17,
+      "dimension": "career",
+      "category": "职业发展",
+      "prompt": "你更认同哪种说法？",
+      "options": [
+        {
+          "id": "A",
+          "label": "年轻就是要拼，不然老了后悔",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "工作是为了生活，不能本末倒置",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "能做热爱的事，比赚多少钱都重要",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "先把钱赚到，理想以后再说",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 4,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q018",
+      "ordinal": 18,
+      "dimension": "career",
+      "category": "职业发展",
+      "prompt": "你更看重城市的什么产业优势？",
+      "options": [
+        {
+          "id": "A",
+          "label": "互联网科技公司多",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "工业基础雄厚，实体经济强",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "文化旅游产业发达",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "金融商业中心",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 4,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q019",
+      "ordinal": 19,
+      "dimension": "career",
+      "category": "职业发展",
+      "prompt": "你梦想中的工作城市是什么样的？",
+      "options": [
+        {
+          "id": "A",
+          "label": "行业顶尖，能跟最牛的人共事",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "发展很快，能跟上时代步伐",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "轻松一点，能平衡工作和生活",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "环境优美，边工作边享受生活",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 4,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q020",
+      "ordinal": 20,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你平时的消费习惯是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "对自己好一点，该花就花",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "精打细算，性价比最重要",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "尽量多存点钱，心里踏实",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "愿意为体验和感受花钱",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q021",
+      "ordinal": 21,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你平时晚上怎么过？",
+      "options": [
+        {
+          "id": "A",
+          "label": "泡吧聚会，越夜越精彩",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "朋友叫了才出门，平时宅着",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "在家追剧看书，安静就好",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "逛夜市吃小吃，感受烟火气",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q022",
+      "ordinal": 22,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你觉得定居一座城市的标志是？",
+      "options": [
+        {
+          "id": "A",
+          "label": "买房子，有自己的家",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "有稳定的工作和圈子",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "有喜欢的生活状态就行",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "说不清楚，随缘",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q023",
+      "ordinal": 23,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你更愿意和什么样的人做邻居？",
+      "options": [
+        {
+          "id": "A",
+          "label": "来自五湖四海的人，能认识不同朋友",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "各行各业的都有，生活方便",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "跟自己差不多的人，相处自在",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "本地人多一点，有生活气息",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q024",
+      "ordinal": 24,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你怎么看城市的消费水平？",
+      "options": [
+        {
+          "id": "A",
+          "label": "贵点没关系，资源好就值",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "性价比很重要，不想当月光族",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "越便宜越好，省下的钱自己花",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "无所谓，赚多赚少都能过",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q025",
+      "ordinal": 25,
+      "dimension": "lifestyle",
+      "category": "生活方式",
+      "prompt": "你更想住在哪种区域？",
+      "options": [
+        {
+          "id": "A",
+          "label": "市中心，出门什么都有",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "老城区，生活气息浓",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "新城区，干净又舒服",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "郊区或景区，空气好安静",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 5,
+        "index": 5
+      }
+    },
+    {
+      "id": "city-q026",
+      "ordinal": 26,
+      "dimension": "vibe",
+      "category": "城市气质",
+      "prompt": "你更喜欢什么样的城市面貌？",
+      "options": [
+        {
+          "id": "A",
+          "label": "老建筑多，有历史感",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "高楼大厦多，现代化十足",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "中西结合，有独特的味道",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "建在山水之间，和自然融为一体",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 6,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q027",
+      "ordinal": 27,
+      "dimension": "vibe",
+      "category": "城市气质",
+      "prompt": "如果要长期定居，你更看重城市的什么？",
+      "options": [
+        {
+          "id": "A",
+          "label": "历史文化底蕴深，有内涵",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "发展速度快，充满机会",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "还没被过度开发，原生态",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "各方面均衡，不偏科",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 6,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q028",
+      "ordinal": 28,
+      "dimension": "vibe",
+      "category": "城市气质",
+      "prompt": "周末你一般怎么安排？",
+      "options": [
+        {
+          "id": "A",
+          "label": "逛美术馆博物馆，涨涨知识",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "逛商场看展览，感受潮流",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "找家特色咖啡店，坐一下午",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "去热闹的集市或美食街，凑热闹",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 6,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q029",
+      "ordinal": 29,
+      "dimension": "vibe",
+      "category": "城市气质",
+      "prompt": "一座城市最吸引你的是什么？",
+      "options": [
+        {
+          "id": "A",
+          "label": "历史文化厚重，有故事",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "现代充满活力，有奔头",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "有人情味，温暖又包容",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "个性十足，跟别的地方不一样",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 6,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q030",
+      "ordinal": 30,
+      "dimension": "vibe",
+      "category": "城市气质",
+      "prompt": "你希望别人怎么形容你生活的城市？",
+      "options": [
+        {
+          "id": "A",
+          "label": "有文化有底蕴",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "时尚又前沿",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "舒服又安逸",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "独特又有个性",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 6,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q031",
+      "ordinal": 31,
+      "dimension": "social",
+      "category": "人际社交",
+      "prompt": "你怎么看待\"同乡\"这种关系？",
+      "options": [
+        {
+          "id": "A",
+          "label": "挺亲切的，在外有老乡很有归属感",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "还行吧，遇到了会多聊几句",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "无所谓，交朋友不看哪里人",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "不太喜欢，不想被圈子绑住",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 7,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q032",
+      "ordinal": 32,
+      "dimension": "social",
+      "category": "人际社交",
+      "prompt": "你更喜欢什么样的相处方式？",
+      "options": [
+        {
+          "id": "A",
+          "label": "热情直爽，见面就能聊得来",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "含蓄一点，不越界但很真诚",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "直接高效，有事说事",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "佛系相处，不争不抢",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 7,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q033",
+      "ordinal": 33,
+      "dimension": "social",
+      "category": "人际社交",
+      "prompt": "在陌生的社交场合，你通常？",
+      "options": [
+        {
+          "id": "A",
+          "label": "主动搭话，认识新朋友",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "先观察一下，熟了就放得开",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "跟熟悉的朋友待在一起",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "尽量不说话，能躲就躲",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 7,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q034",
+      "ordinal": 34,
+      "dimension": "social",
+      "category": "人际社交",
+      "prompt": "你和朋友在一起最常做什么？",
+      "options": [
+        {
+          "id": "A",
+          "label": "聊工作聊未来，互相打气",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "聊生活聊家常，轻松自在",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "互相帮忙，有困难一起扛",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "到处玩找乐子，开心最重要",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 7,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q035",
+      "ordinal": 35,
+      "dimension": "social",
+      "category": "人际社交",
+      "prompt": "搬到新小区，你会主动认识邻居吗？",
+      "options": [
+        {
+          "id": "A",
+          "label": "会啊，多认识人挺好的",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "熟了自然就认识了",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "不会主动，但打招呼没问题",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "不想认识，保持距离最好",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 7,
+        "index": 4
+      }
+    },
+    {
+      "id": "city-q036",
+      "ordinal": 36,
+      "dimension": "size",
+      "category": "城市规模",
+      "prompt": "你更愿意住在多大的城市？",
+      "options": [
+        {
+          "id": "A",
+          "label": "千万级人口的超级大都市",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "几百万人口的大城市",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "百八十万人口的中等城市",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "小城市甚至小县城",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 8,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q037",
+      "ordinal": 37,
+      "dimension": "size",
+      "category": "城市规模",
+      "prompt": "你觉得城市人多好还是人少好？",
+      "options": [
+        {
+          "id": "A",
+          "label": "人多热闹，有人气才有活力",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "不多不少刚刚好",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "人少清净，不喜欢挤来挤去",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "无所谓，都能适应",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 8,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q038",
+      "ordinal": 38,
+      "dimension": "nature",
+      "category": "自然风光",
+      "prompt": "你更向往哪种风景？",
+      "options": [
+        {
+          "id": "A",
+          "label": "高山草原，高原风光",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "热带植被，郁郁葱葱",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "江河湖泊，水乡泽国",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "一望无际的大平原",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 9,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q039",
+      "ordinal": 39,
+      "dimension": "nature",
+      "category": "自然风光",
+      "prompt": "你理想中的家，推开门第一眼看到？",
+      "options": [
+        {
+          "id": "A",
+          "label": "连绵的山，开阔又壮观",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "一大片海，心情都变好了",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "静静的湖水，特别治愈",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "繁华街景，很有生活感",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 9,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q040",
+      "ordinal": 40,
+      "dimension": "nature",
+      "category": "自然风光",
+      "prompt": "周末出门，你更想去？",
+      "options": [
+        {
+          "id": "A",
+          "label": "爬爬山，呼吸新鲜空气",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "去海边走走，吹吹海风",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "湖边划船，享受宁静",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "去公园散散步，绿化好就行",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 9,
+        "index": 2
+      }
+    },
+    {
+      "id": "city-q041",
+      "ordinal": 41,
+      "dimension": "nature",
+      "category": "自然风光",
+      "prompt": "你梦想中的房子在哪里？",
+      "options": [
+        {
+          "id": "A",
+          "label": "城市中心的高层，视野好",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "海边的房子，听着浪声睡觉",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "湖边的房子，推开窗就是水",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "山里的房子，远离喧闹",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 9,
+        "index": 3
+      }
+    },
+    {
+      "id": "city-q042",
+      "ordinal": 42,
+      "dimension": "language",
+      "category": "语言文化",
+      "prompt": "你更喜欢哪个地区的语言氛围？",
+      "options": [
+        {
+          "id": "A",
+          "label": "软糯的江南话",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "直爽的北方话",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "热辣的西南话",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "务实的南方话",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 10,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q043",
+      "ordinal": 43,
+      "dimension": "language",
+      "category": "语言文化",
+      "prompt": "在外地听到家乡话，你会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "特别亲切，忍不住上去搭话",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "会多留意一下，但不一定说话",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "没什么特别感觉",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "不太想被认出来，想保持距离",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 10,
+        "index": 1
+      }
+    },
+    {
+      "id": "city-q044",
+      "ordinal": 44,
+      "dimension": "culture",
+      "category": "文娱生活",
+      "prompt": "如果每月有一笔固定的文化预算，你更愿意花在哪？",
+      "options": [
+        {
+          "id": "A",
+          "label": "买书上课，提升自己",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "看演出逛展览，感受艺术",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "看古迹逛博物馆，了解历史",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "看电影玩娱乐，开心就好",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 11,
+        "index": 0
+      }
+    },
+    {
+      "id": "city-q045",
+      "ordinal": 45,
+      "dimension": "culture",
+      "category": "文娱生活",
+      "prompt": "周末晚上，你通常会？",
+      "options": [
+        {
+          "id": "A",
+          "label": "去看演出或音乐节",
+          "ordinal": 1
+        },
+        {
+          "id": "B",
+          "label": "听相声看戏，感受传统文化",
+          "ordinal": 2
+        },
+        {
+          "id": "C",
+          "label": "逛商场看电影",
+          "ordinal": 3
+        },
+        {
+          "id": "D",
+          "label": "宅在家里或去安静的咖啡店",
+          "ordinal": 4
+        }
+      ],
+      "source": {
+        "file": "6abe654cf600031a0a39384d/quiz.html",
+        "level": 11,
+        "index": 1
+      }
+    }
+  ]
+}

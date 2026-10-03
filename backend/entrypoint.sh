@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+python manage.py migrate --noinput
+python manage.py init_data
+python manage.py init_admin
+exec "$@"

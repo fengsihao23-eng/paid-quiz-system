@@ -1,0 +1,2 @@
+# Reproduce the versions validated in Docker and PostgreSQL tests.
+-r requirements.lock.txt
